@@ -2,15 +2,15 @@ a = int(input("enter a number: "))
 b = int(input("enter another number: "))
 c = input("select the operator: ")
 
-if c == "+" :
+i c == "+" :
  print(a,"+",b,"=",a+b)
-elif c == "-" :
+eli c == "-" :
   print(a,"-",b,"=",a-b) 
-elif c == "*" :
+eli c == "*" :
   print(a,"*",b,"=",a*b)
-elif c == "/" :
+eli c == "/" :
   print(a,"/",b,"=",a/b)
-elif c == "**" :
+eli c == "**" :
   print(a,"**",b,"=",a**b)
 else :
   print("SORRY,this operaton cannot be perfromed! ")   
