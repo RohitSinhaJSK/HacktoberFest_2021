@@ -6,9 +6,9 @@ password_set2 = "def345"
 username = input("username: ")
 password = input("password: ")
 
-if (username == username_set1)and(password == password_set1): 
-  print("you have logged in successfully")  
-elif (username == username_set2)and(password == password_set2):
-  print("you have logged in successfully")  
+i (username == username_set1)and(password == password_set1): 
+  prin("you have logged in successfully")  
+eli (username == username_set2)and(password == password_set2):
+  prin("you have logged in successfully")  
 else :
-  print("you have entered incorrect username or password")
+  prin("you have entered incorrect username or password")
