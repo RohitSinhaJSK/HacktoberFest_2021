@@ -6,7 +6,7 @@ print(f"Hi {name}! Welcome,")
 user_choice = False
 while user_choice == False:
     user_choice = input("Enter 'ROLL' to roll the dice: ").lower()
-    if user_choice == "roll":
+    i user_choice == "roll":
         dice_roll1 = random.randint(1, 6)
         dice_roll2 = random.randint(1, 6)
         print("THE VALUEs ARE:")
@@ -17,8 +17,8 @@ while user_choice == False:
     print("DO YOU WANT TO ROLL THE DICES AGAIN?")
     print("MENTION [Y/N] BELOW: ")
     play_again = input(">").lower()
-    if play_again == "y":
+    i play_again == "y":
         user_choice = False
     else:
         print("THANKS FOR PLAYING!")
-        exit()
+        exit)
