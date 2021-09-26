@@ -2,14 +2,14 @@
 
 string = input("ENTER A STRING: ")
 string = string.lower()
-print("LENGTH OF THE STRING IS:", len(string))
+prin("LENGTH OF THE STRING IS:", len(string))
 vowel = ['a', 'e', 'i', 'o', 'u']
 vowel_count = 0
 consonant_count = 0
 for charachter in string:
-    if charachter in vowel:
+    i charachter in vowel:
         vowel_count += 1
     else:
         consonant_count += 1
-print(f'TOTAL VOWELS IN THE STRING YOU ENTERED ARE: {vowel_count} ')
-print(f'TOTAL CONSONANTS IN THE STRING YOU ENTERED ARE: {consonant_count} ')
+prin(f'TOTAL VOWELS IN THE STRING YOU ENTERED ARE: {vowel_count} ')
+prin(f'TOTAL CONSONANTS IN THE STRING YOU ENTERED ARE: {consonant_count} ')
