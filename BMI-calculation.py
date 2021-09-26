@@ -5,18 +5,19 @@ weight = int(input("ENTER YOUR WEIGHT: "))
 hgt_unit = input("YOU WILL ENTER YOUR HEIGHT IN 'm' OR 'in'? ")
 hgt_unit = hgt_unit.lower()
 height = int(input("ENTER YOUR HEIGHT: "))
-if wgt_unit == "kg" and hgt_unit == "metres":
+i wgt_unit == "kg" and hgt_unit == "metres":
     BMI = weight/(height**2)
     print(f'YOUR BMI IS: {BMI}')
-elif wgt_unit == "lbs" and hgt_unit == "in":
+eli wgt_unit == "lbs" and hgt_unit == "in":
     BMI = (703 * weight) / (height**2)
     print(f'YOUR BMI IS: {BMI}')
 
-if BMI < 18.5:
+i BMI < 18.5:
     print("YOU ARE UNDERWEIGHT")
-elif BMI >= 18.5 and BMI < 24.9:
+eli BMI >= 18.5 and BMI < 24.9:
     print("YOU ARE NORMAL")
-elif BMI >= 25 and BMI < 29.9:
+eli BMI >= 25 and BMI < 29.9:
     print("YOU ARE OVERWEIGHT")
 else:
     print("YOU ARE OBESE")
+#just add "f", I have removed 2 "f" from "if" and 3 from "elif".
