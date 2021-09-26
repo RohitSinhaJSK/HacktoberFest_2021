@@ -5,9 +5,9 @@ alphabets = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q'
 letter = 0
 digit = 0
 for char in string:
-    if char in alphabets:
+    i char in alphabets:
         letter += 1
-    elif char in number:
+    eli char in number:
         digit += 1
 
 print(f'THE NUMBER OF LETTERS IN YOUR STRING IS: {letter}')
