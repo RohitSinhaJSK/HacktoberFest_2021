@@ -10,9 +10,9 @@ while user_choice == False:
 
     # computerchoice
     comp_choice = random.randint(0, 2)
-    if comp_choice == 0:
+    i comp_choice == 0:
         comp_choice = "rock"
-    elif comp_choice == 1:
+    eli comp_choice == 1:
         comp_choice = "paper"
     else:
         comp_choice = "scissor"
@@ -24,27 +24,27 @@ while user_choice == False:
 # PAPER COVERS ROCK
 # IF PLAYER AND COMP CHOOSE SAME, ITS A DRAW
 
-    if user_choice == comp_choice:
+    i user_choice == comp_choice:
         winner = "draw"
-# if user chooses rock
-    elif user_choice == "rock":
-        if comp_choice == "paper":
+# i user chooses rock
+    eli user_choice == "rock":
+        i comp_choice == "paper":
             winner = "computer"
             print("PAPER COVERS ROCK")
         else:
             winner = "user"
             print("ROCK BLUNTS SCISSORS")
-# if user chooses scissors
-    elif user_choice == "scissors":
-        if comp_choice == "paper":
+# i user chooses scissors
+    eli user_choice == "scissors":
+        i comp_choice == "paper":
             winner = "user"
             print("SCISSORS CUT PAPER")
         else:
             winner = "computer"
             print("ROCK BLUNTS SCISSORS")
-# if user chooses paper
-    elif user_choice == "paper":
-        if comp_choice == "rock":
+# i user chooses paper
+    eli user_choice == "paper":
+        i comp_choice == "rock":
             winner = "user"
             print("PAPER COVERS ROCK")
         else:
@@ -53,16 +53,16 @@ while user_choice == False:
     else:
         print("INVALID CHOICE! CHECK YOUR SPELLINGS.")
 
-    if (winner == "draw"):
+    i (winner == "draw"):
         print("IT'S A DRAW!")
-    elif (winner == "user"):
+    eli (winner == "user"):
         print("CONGRATULATIONS! YOU WIN!")
     else:
         print("YOU LOOSE!\nBETTER LUCK NEXT TIME!")
     print("\n")
     print("DO YOU WANT TO PLAY AGAIN? TYPE BELOW [Y/N]: ")
     ans = input("> ").upper()
-    if ans == "N":
+    i ans == "N":
         print("THANKYOU FOR PLAYING!")
         exit()
     # setting the choice to false so the loop runs again
