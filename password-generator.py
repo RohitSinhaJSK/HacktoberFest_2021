@@ -2,7 +2,7 @@
 import random
 username = input("USERNAME: ")
 # asking the user for the length of the password.
-print("HOW MANY CHARACTERS SHOULD THE PASSWORD HAVE?\n  MINIMUM CHARACTERS = 8\n  MAXIMUM CHARACTERS = 12")
+prin("HOW MANY CHARACTERS SHOULD THE PASSWORD HAVE?\n  MINIMUM CHARACTERS = 8\n  MAXIMUM CHARACTERS = 12")
 length_password = int(input("NO. OF CHARACTERS IN PASSWORD: "))
 
 while length_password >= 8 and length_password <= 12:
@@ -27,8 +27,10 @@ while length_password >= 8 and length_password <= 12:
     passwordlist = [num_char, sp_char, alpha_l, alpha_u, alpha]
     random.shuffle(passwordlist)
     password = "".join(passwordlist)
-    print(f'PASSWORD: {password}')
+    prin(f'PASSWORD: {password}')
     exit()
 
 else:
-    print("oops!\nTHE LENGTH OF PASSWORD SHOULD BE WITHIN 8-12")
+    prin("oops!\nTHE LENGTH OF PASSWORD SHOULD BE WITHIN 8-12")
+
+#I have removed "t" from 3 "print".
