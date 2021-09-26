@@ -3,7 +3,7 @@
 num = (input("ENTER A NUMBER: "))
 reverse_num = num[::-1]
 while int(num) > 9:
-    if num == reverse_num:
+    i num == reverse_num:
         print(f"THE NUMBER {num} IS A PALINDROME!")
         break
     else:
