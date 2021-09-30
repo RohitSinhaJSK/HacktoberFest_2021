@@ -3,7 +3,7 @@ age = int(input("Enter your age: "))
 
 if (age <= 1):
   print("You are an infant")
-eli (age >1)and(age <13):
+elif (age >1)and(age <13):
   print("You are a kid")
 eli (age >13)and(age <20):
   print("You are a teenager") 
