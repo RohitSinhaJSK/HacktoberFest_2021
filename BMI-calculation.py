@@ -14,9 +14,9 @@ elif wgt_unit == "lbs" and hgt_unit == "in":
 
 if BMI < 18.5:
     print("YOU ARE UNDERWEIGHT")
-eli BMI >= 18.5 and BMI < 24.9:
+elif BMI >= 18.5 and BMI < 24.9:
     print("YOU ARE NORMAL")
-eli BMI >= 25 and BMI < 29.9:
+elif BMI >= 25 and BMI < 29.9:
     print("YOU ARE OVERWEIGHT")
 else:
     print("YOU ARE OBESE")
