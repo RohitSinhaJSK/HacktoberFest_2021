@@ -15,6 +15,6 @@ print("obtained marks:", a)
 totalmarks = 850
 print("total marks:", totalmarks)
 percentage = (a / totalmarks) * 100
-prin("percentage:", percentage)
+print("percentage:", percentage)
 
 #i have removed "t" from 4 "print"
