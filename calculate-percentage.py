@@ -13,7 +13,7 @@ maths = int(input("mathematics: "))
 a = english1 + english2 + sindhi + urdu + pakstd + islamiat + chem + bio + phy + maths
 print("obtained marks:", a)
 totalmarks = 850
-prin("total marks:", totalmarks)
+print("total marks:", totalmarks)
 percentage = (a / totalmarks) * 100
 prin("percentage:", percentage)
 
