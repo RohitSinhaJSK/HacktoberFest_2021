@@ -8,7 +8,7 @@ height = int(input("ENTER YOUR HEIGHT: "))
 if wgt_unit == "kg" and hgt_unit == "metres":
     BMI = weight/(height**2)
     print(f'YOUR BMI IS: {BMI}')
-eli wgt_unit == "lbs" and hgt_unit == "in":
+elif wgt_unit == "lbs" and hgt_unit == "in":
     BMI = (703 * weight) / (height**2)
     print(f'YOUR BMI IS: {BMI}')
 
