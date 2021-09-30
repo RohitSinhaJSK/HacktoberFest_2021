@@ -1,4 +1,4 @@
-prin("Enter your marks: ")
+print("Enter your marks: ")
 english1 = int(input("english paper 1: "))
 english2 = int(input("english paper 2: "))
 sindhi = int(input("sindhi: "))
