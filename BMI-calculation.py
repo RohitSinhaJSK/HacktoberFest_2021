@@ -12,7 +12,7 @@ elif wgt_unit == "lbs" and hgt_unit == "in":
     BMI = (703 * weight) / (height**2)
     print(f'YOUR BMI IS: {BMI}')
 
-i BMI < 18.5:
+if BMI < 18.5:
     print("YOU ARE UNDERWEIGHT")
 eli BMI >= 18.5 and BMI < 24.9:
     print("YOU ARE NORMAL")
