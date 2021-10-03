@@ -1,6 +1,6 @@
 n = int(input("Enter your marks: "))
 
-i n >= 90 :
+if n >= 90 :
   print("A-1 grade")
 eli n > 80 < 90 :
   print("A grade")
